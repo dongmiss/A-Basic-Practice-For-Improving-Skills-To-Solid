@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix{
+    clear: both;
+}
+
+#container-buttons{
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 250px;
+    height: 46px;
+}
+
+.button{
+    float: left;
+    width: 50px;
+    height: 26px;
+    background-color: lightgrey;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button:hover{
+    background-color: grey;
+}
+
+#obj-square{
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+}
