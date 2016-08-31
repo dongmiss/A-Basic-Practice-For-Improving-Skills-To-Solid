@@ -1,3 +1,4 @@
+//Load functions after window onload
 window.onload = function(){
     changeit();
 }
@@ -15,7 +16,7 @@ function changeit(){
     buttonContainer.addEventListener("click", function(e){
         //For ie6-ie8
         var target = e.target || e.srcElement;
-        //Event delegation
+        //If target exists
         if(target && target.className === "button"){
             //Transfer node object into array
             var arrButton = Array.prototype.slice.call(button);
@@ -25,7 +26,7 @@ function changeit(){
             if(index === arrAttrLength-1){
                 obj.style.cssText = "";
             }
-            //Apply styles
+            //Apply styles anyways
             changeStyle(obj, arrAttr[index], arrValue[index]);
         }
     }, false);
