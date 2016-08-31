@@ -1,7 +1,9 @@
+"use strict";
+
 //Load functions after window onload
 window.onload = function(){
     changeit();
-}
+};
 
 //Change style via buttons
 function changeit(){
@@ -9,7 +11,7 @@ function changeit(){
     var buttonContainer = document.getElementById("container-buttons");
     var button = document.getElementsByClassName("button");
     var obj = document.getElementById("obj-square");
-    var arrAttr = ["width", "height", "backgroundColor", "display", "display"]
+    var arrAttr = ["width", "height", "backgroundColor", "display", "display"];
     var arrAttrLength = arrAttr.length;
     var arrValue = ["300px", "300px", "red", "none", "block"];
     //Event delegation

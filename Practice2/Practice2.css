@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix{
+    clear: both;
+}
+
+#container-buttons{
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 150px;
+    height: 46px;
+}
+
+.button{
+    box-sizing: border-box;
+    float: left;
+    width: 50px;
+    height: 26px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+}
+
+#red{
+    background-color: red;
+}
+
+#blue{
+    background-color: blue;
+}
+
+#black{
+    background-color: black;
+}
+
+.button:hover{
+    background-color: grey;
+}
+
+#obj-square{
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+}
